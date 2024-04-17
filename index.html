@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TrelloWise</title>
+</head>
+<body>
+    <h1>TrelloWise</h1>
+    <form>
+        <input type="text" maxlength="150" placeholder="Nuevo proyecto..." id="nomProyecto">
+        <br>
+        <textarea id="descProyecto" rows="4" cols="50" placeholder="Descripción breve..."></textarea>
+        <br>
+        <button onclick="AgregarProyecto(event)" id="agregar">Agregar</button>
+        <h5 id="errores"></h5>
+    </form>
+    <div id="divProyectos"></div>
+    <script src="script.js"></script>
+</body>
+</html>

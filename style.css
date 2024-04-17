@@ -1,0 +1,16 @@
+body,button, input {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.contenedor-tarea
+{
+    display: inline-block;
+    width: 100%;
+}
+
+h1{
+    color: rgb(156, 33, 212);
+}
+body{
+    background-color: rgb(173, 228, 208);
+}
